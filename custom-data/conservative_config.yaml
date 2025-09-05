@@ -1,0 +1,116 @@
+# Custom Cost Configuration - Conservative Scenario
+# This file defines conservative cost projections for energy technologies in PyPSA-Earth
+
+# Global configuration
+enabled: true  # Set to false to disable all custom overrides
+scenario_name: "conservative_baseline"  # This creates a folder: /custom-data/conservative_baseline/
+description: "Conservative cost projections with moderate learning curves"
+base_year: 2020  # Base year for cost projections
+target_years: [2020, 2030, 2040, 2050]  # Fewer years for conservative scenario
+
+# IMPORTANT: All cost files will be placed in a scenario-specific folder:
+# /shared/share_cki25/data/custom-data/{scenario_name}/
+# Example: /shared/share_cki25/data/custom-data/conservative_baseline/
+
+# Technology-specific parameter overrides (more conservative than optimistic scenario)
+technology_overrides:
+  
+  # Solar PV Technologies - Conservative learning
+  solar-utility:
+    FOM:
+      enabled: true
+      base_value: 2.0  # % per year
+      annual_change_rate: -0.01  # 1% annual decrease (slower than optimistic)
+      unit: "%/year"
+      source: "Conservative projection - moderate O&M improvement"
+      description: "Slower O&M cost reduction"
+    
+    investment:
+      enabled: true
+      base_value: 562.5  # EUR/kW
+      annual_change_rate: -0.025  # 2.5% annual decrease (slower than optimistic 5%)
+      unit: "EUR/kW_e"
+      source: "Conservative projection - moderate solar learning"
+      description: "Conservative solar cost reduction"
+  
+  solar-rooftop residential:
+    FOM:
+      enabled: true
+      base_value: 1.08  # % per year
+      annual_change_rate: -0.005  # 0.5% annual decrease
+      unit: "%/year"
+      source: "Conservative projection - minimal residential improvements"
+      description: "Slow decline in residential O&M costs"
+    
+    investment:
+      enabled: true
+      base_value: 1241.9  # EUR/kW
+      annual_change_rate: -0.02  # 2% annual decrease
+      unit: "EUR/kW_e"
+      source: "Conservative projection - gradual residential cost reduction"
+      description: "Gradual cost reductions for residential solar"
+  
+  # Wind Technologies - Conservative projections
+  onwind:
+    FOM:
+      enabled: true
+      base_value: 1.25  # % per year
+      annual_change_rate: -0.003  # 0.3% annual decrease
+      unit: "%/year"
+      source: "Conservative projection - minimal wind O&M improvements"
+      description: "Very slow improvement in wind O&M"
+    
+    investment:
+      enabled: true
+      base_value: 1183.9  # EUR/kW
+      annual_change_rate: -0.01  # 1% annual decrease
+      unit: "EUR/kW"
+      source: "Conservative projection - slow onshore wind cost reduction"
+      description: "Conservative wind cost projections"
+  
+  # Hydrogen Technologies - Very conservative
+  "Alkaline electrolyzer large size":
+    FOM:
+      enabled: true
+      base_value: 6.4  # % per year
+      annual_change_rate: -0.01  # 1% annual decrease
+      unit: "%/year"
+      source: "Conservative projection - slow electrolyzer improvements"
+      description: "Conservative electrolyzer O&M projections"
+    
+    investment:
+      enabled: true
+      base_value: 711.9  # EUR/kW
+      annual_change_rate: -0.04  # 4% annual decrease (much slower than optimistic 8%)
+      unit: "EUR/kW"
+      source: "Conservative projection - gradual electrolyzer cost reduction"
+      description: "Conservative electrolyzer cost learning"
+  
+  # Energy Storage - Conservative battery projections
+  "Lithium-Ion-NMC-store":
+    FOM:
+      enabled: true
+      base_value: 0.038  # % per year
+      annual_change_rate: -0.005  # 0.5% annual decrease
+      unit: "%/year"
+      source: "Conservative projection - slow battery O&M improvements"
+      description: "Conservative battery maintenance cost projections"
+    
+    investment:
+      enabled: true
+      base_value: 372112.0  # EUR/MWh
+      annual_change_rate: -0.04  # 4% annual decrease (much slower than optimistic 8%)
+      unit: "EUR/MWh"
+      source: "Conservative projection - moderate battery cost decline"
+      description: "Conservative battery cost learning curve"
+
+# Additional configuration options
+output_settings:
+  filename_prefix: "costs_conservative"
+  include_baseline: true
+  
+# Quality control settings
+validation:
+  check_negative_values: true
+  warn_extreme_changes: true
+  min_reasonable_cost: 0.01

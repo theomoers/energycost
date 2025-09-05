@@ -1,0 +1,29 @@
+Technology Group,Technology,Efficiency,Lifetime
+Solar,solar-utility,N/A,40.0 years
+Solar,solar-rooftop residential,N/A,40.0 years
+Solar,solar-rooftop commercial,N/A,40.0 years
+Solar,solar,N/A,40.0 years
+Solar,solar-rooftop,N/A,40.0 years
+Solar Thermal,decentral solar thermal,N/A,20.0 years
+Solar Thermal,central solar thermal,N/A,20.0 years
+Wind,onwind,N/A,30.0 years
+Wind,offwind,N/A,30.0 years
+Wind,offwind-float,N/A,20.0 years
+Batteries,Lithium-Ion-NMC-store,N/A,13.0 years
+Batteries,Lithium-Ion-LFP-store,N/A,16.0 years
+Batteries,battery storage,N/A,30.0 years
+Batteries,Battery electric (passenger cars),0.68 per unit,15.0 years
+Batteries,Battery electric (trucks),N/A,15.0 years
+Batteries,home battery storage,N/A,30.0 years
+Batteries,iron-air battery,N/A,17.5 years
+H2 Electrolysis,SOEC,N/A,30.0 years
+H2 Electrolysis,Alkaline electrolyzer large size,N/A,40.0 years
+H2 Electrolysis,Alkaline electrolyzer small size,N/A,20.0 years
+H2 Electrolysis,PEM electrolyzer small size,N/A,9.0 years
+H2 Electrolysis,electrolysis,0.6994 per unit,25.0 years
+Coal,coal,0.356 p.u.,40.0 years
+Coal,lignite,0.33 p.u.,40.0 years
+Gas,CCGT,0.6 per unit,25.0 years
+Gas,OCGT,0.43 per unit,25.0 years
+Nuclear,nuclear,0.326 p.u.,40.0 years
+Oil,oil,0.35 per unit,25.0 years

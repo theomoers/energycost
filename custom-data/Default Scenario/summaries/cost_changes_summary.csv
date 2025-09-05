@@ -1,0 +1,105 @@
+Technology Group,Technology,Parameter,2020 Value,2050 Value,Total Change (%),Annual Rate (%)
+Solar,solar-utility,FOM,2.0089,2.5292,25.9,0.77
+Solar,solar-utility,investment,562.5,292.5769,-47.99,-2.16
+Solar,solar-utility,lifetime,35.0,40.0,14.29,0.45
+Solar,solar-rooftop residential,FOM,1.079,1.3998,29.73,0.87
+Solar,solar-rooftop residential,investment,1241.9355,635.814,-48.8,-2.21
+Solar,solar-rooftop residential,lifetime,35.0,40.0,14.29,0.45
+Solar,solar-rooftop commercial,FOM,1.2152,1.812,49.11,1.34
+Solar,solar-rooftop commercial,investment,872.3118,413.9018,-52.55,-2.45
+Solar,solar-rooftop commercial,lifetime,35.0,40.0,14.29,0.45
+Solar,solar,FOM,1.578,2.0676,31.03,0.9
+Solar,solar,VOM,0.0106,0.0106,0.0,0.0
+Solar,solar,investment,809.8118,408.7174,-49.53,-2.25
+Solar,solar,lifetime,35.0,40.0,14.29,0.45
+Solar,solar-rooftop,FOM,1.1471,1.6059,40.0,1.13
+Solar,solar-rooftop,investment,1057.1237,524.8579,-50.35,-2.31
+Solar,solar-rooftop,lifetime,35.0,40.0,14.29,0.45
+Solar,solar-rooftop,discount rate,0.04,0.04,0.0,0.0
+Solar Thermal,decentral solar thermal,FOM,1.3,1.3,0.0,0.0
+Solar Thermal,decentral solar thermal,investment,285719.8393,285719.8393,0.0,0.0
+Solar Thermal,decentral solar thermal,lifetime,20.0,20.0,0.0,0.0
+Solar Thermal,decentral solar thermal,discount rate,0.04,0.04,0.0,0.0
+Solar Thermal,central solar thermal,FOM,1.4,1.4,0.0,0.0
+Solar Thermal,central solar thermal,investment,148151.0278,148151.0278,0.0,0.0
+Solar Thermal,central solar thermal,lifetime,20.0,20.0,0.0,0.0
+Wind,onwind,FOM,1.2514,1.1775,-5.91,-0.2
+Wind,onwind,VOM,1.5873,1.2857,-19.0,-0.7
+Wind,onwind,investment,1183.9119,1019.1375,-13.92,-0.5
+Wind,onwind,lifetime,27.0,30.0,11.11,0.35
+Wind,offwind,FOM,2.5093,2.1655,-13.7,-0.49
+Wind,offwind,VOM,0.0212,0.0212,0.0,0.0
+Wind,offwind,investment,1992.6105,1523.9311,-23.52,-0.89
+Wind,offwind,lifetime,27.0,30.0,11.11,0.35
+Wind,offwind-float,FOM,1.15,1.39,20.87,0.63
+Wind,offwind-float,investment,2350.0,1580.0,-32.77,-1.31
+Wind,offwind-float,lifetime,20.0,20.0,0.0,0.0
+Batteries,Lithium-Ion-NMC-store,FOM,0.0379,0.038,0.26,0.01
+Batteries,Lithium-Ion-NMC-store,investment,372111.988,269576.8493,-27.55,-1.07
+Batteries,Lithium-Ion-NMC-store,lifetime,13.0,13.0,0.0,0.0
+Batteries,Lithium-Ion-LFP-store,FOM,0.0447,0.0447,0.0,0.0
+Batteries,Lithium-Ion-LFP-store,investment,325690.7596,236482.8109,-27.39,-1.06
+Batteries,Lithium-Ion-LFP-store,lifetime,16.0,16.0,0.0,0.0
+Batteries,battery storage,investment,246.7088,79.755,-67.67,-3.69
+Batteries,battery storage,lifetime,20.0,30.0,50.0,1.36
+Batteries,Battery electric (passenger cars),FOM,0.9,0.9,0.0,0.0
+Batteries,Battery electric (passenger cars),investment,33000.0,23561.0,-28.6,-1.12
+Batteries,Battery electric (passenger cars),lifetime,15.0,15.0,0.0,0.0
+Batteries,Battery electric (trucks),FOM,14.0,16.0,14.29,0.45
+Batteries,Battery electric (trucks),investment,204067.0,129400.0,-36.59,-1.51
+Batteries,Battery electric (trucks),lifetime,15.0,15.0,0.0,0.0
+Batteries,home battery storage,investment,344.0435,115.4789,-66.43,-3.57
+Batteries,home battery storage,lifetime,20.0,30.0,50.0,1.36
+Batteries,iron-air battery,FOM,1.0219,1.1808,15.55,0.48
+Batteries,iron-air battery,investment,25.1342,11.1494,-55.64,-2.67
+Batteries,iron-air battery,lifetime,17.5,17.5,0.0,0.0
+H2 Electrolysis,SOEC,FOM,4.0,4.0,0.0,0.0
+H2 Electrolysis,SOEC,investment,2359.2378,2029.959,-13.96,-0.5
+H2 Electrolysis,SOEC,lifetime,30.0,30.0,0.0,0.0
+H2 Electrolysis,Alkaline electrolyzer large size,FOM,6.4,2.8,-56.25,-2.72
+H2 Electrolysis,Alkaline electrolyzer large size,VOM,0.6142,0.2389,-61.1,-3.1
+H2 Electrolysis,Alkaline electrolyzer large size,investment,711.9042,429.0306,-39.73,-1.67
+H2 Electrolysis,Alkaline electrolyzer large size,lifetime,40.0,40.0,0.0,0.0
+H2 Electrolysis,Alkaline electrolyzer small size,FOM,18.1,2.3,-87.29,-6.65
+H2 Electrolysis,Alkaline electrolyzer small size,VOM,1.0919,0.1934,-82.29,-5.61
+H2 Electrolysis,Alkaline electrolyzer small size,investment,984.8823,582.922,-40.81,-1.73
+H2 Electrolysis,Alkaline electrolyzer small size,lifetime,20.0,20.0,0.0,0.0
+H2 Electrolysis,PEM electrolyzer small size,FOM,3.0,3.0,0.0,0.0
+H2 Electrolysis,PEM electrolyzer small size,investment,1364.8906,1080.5384,-20.83,-0.78
+H2 Electrolysis,PEM electrolyzer small size,lifetime,6.0,9.0,50.0,1.36
+H2 Electrolysis,electrolysis,FOM,4.0,4.0,0.0,0.0
+H2 Electrolysis,electrolysis,investment,2000.0,1000.0,-50.0,-2.28
+H2 Electrolysis,electrolysis,lifetime,25.0,25.0,0.0,0.0
+Coal,coal,FOM,1.31,1.31,0.0,0.0
+Coal,coal,VOM,3.2612,3.2612,0.0,0.0
+Coal,coal,investment,3827.1629,3827.1629,0.0,0.0
+Coal,coal,lifetime,40.0,40.0,0.0,0.0
+Coal,coal,CO2 intensity,0.3361,0.3361,0.0,0.0
+Coal,coal,fuel,9.5542,9.5542,0.0,0.0
+Coal,lignite,FOM,1.31,1.31,0.0,0.0
+Coal,lignite,VOM,3.2612,3.2612,0.0,0.0
+Coal,lignite,investment,3827.1629,3827.1629,0.0,0.0
+Coal,lignite,lifetime,40.0,40.0,0.0,0.0
+Coal,lignite,CO2 intensity,0.4069,0.4069,0.0,0.0
+Coal,lignite,fuel,3.2985,3.2985,0.0,0.0
+Gas,CCGT,FOM,3.3295,3.25,-2.39,-0.08
+Gas,CCGT,VOM,4.6562,4.2329,-9.09,-0.32
+Gas,CCGT,investment,931.235,846.5773,-9.09,-0.32
+Gas,CCGT,lifetime,25.0,25.0,0.0,0.0
+Gas,OCGT,FOM,1.7772,1.8023,1.41,0.05
+Gas,OCGT,VOM,4.762,4.762,0.0,0.0
+Gas,OCGT,investment,480.3903,435.818,-9.28,-0.32
+Gas,OCGT,lifetime,25.0,25.0,0.0,0.0
+Gas,gas,CO2 intensity,0.198,0.198,0.0,0.0
+Gas,gas,fuel,24.568,24.568,0.0,0.0
+Nuclear,nuclear,FOM,1.27,1.27,0.0,0.0
+Nuclear,nuclear,VOM,3.5464,3.5464,0.0,0.0
+Nuclear,nuclear,investment,8594.1354,8594.1354,0.0,0.0
+Nuclear,nuclear,lifetime,40.0,40.0,0.0,0.0
+Nuclear,nuclear,fuel,3.4122,3.4122,0.0,0.0
+Oil,oil,FOM,2.5656,2.4095,-6.08,-0.21
+Oil,oil,VOM,6.3493,6.3493,0.0,0.0
+Oil,oil,investment,362.97,355.5625,-2.04,-0.07
+Oil,oil,lifetime,25.0,25.0,0.0,0.0
+Oil,oil,CO2 intensity,0.2571,0.2571,0.0,0.0
+Oil,oil,fuel,52.9111,52.9111,0.0,0.0
