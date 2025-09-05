@@ -22,7 +22,6 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 def load_yaml_config(config_path):
-    """Load configuration from YAML file."""
     try:
         with open(config_path, 'r') as file:
             config = yaml.safe_load(file)
@@ -139,7 +138,7 @@ def generate_from_yaml_config(config_path=None):
         apply_validation_checks(config, overrides)
     
     base_cost_dir = Path("/shared/share_cki25/data/costs/default-costs") 
-    base_output_dir = Path("/shared/share_cki25/data/costs/custom-data")
+    base_output_dir = Path("/shared/share_cki25/data/costs/scenarios")
     
     scenario_name = config['scenario_name']
     scenario_dir = base_output_dir / scenario_name
